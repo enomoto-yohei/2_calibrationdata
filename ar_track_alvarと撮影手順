@@ -1,0 +1,39 @@
+[2_calibrationdata]で端末開いて
+
+$ roslaunch ar_track.launch
+_________________________________________________________\
+
+roscore
+
+catkin_make
+
+source devel/setup.bash
+
+roslaunch kinect2_bridge kinect2_bridge.launch
+
+source devel/setup.bash
+
+rosrun kinect2_viewer kinect2_viewer kinect2 hd image
+
+/____________________________
+
+rosrun tf tf_echo /kinect2_rgb_optical_frame /ar_marker_10
+
+
+9_29
+ 1948  history 
+ 1949  catkin_make
+ 1950  source devel/setup.bash
+ 1951  roslaunch kinect2_bridge kinect2_bridge.launch
+ 1952  source devel/setup.bash
+ 1953  rosrun kinect2_viewer kinect2_viewer kinect2 hd image
+ 1954  roscore
+ 1955  catkin_make
+ 1956  source devel/setup.bash
+ 1957  roslaunch kinect2_bridge kinect2_bridge.launch
+ 1958  source devel/setup.bash
+ 1959  rosrun kinect2_viewer kinect2_viewer kinect2 hd image
+ 1960  roslaunch ar_track.launch
+ 1961  rosrun tf tf_echo /kinect2_rgb_optical_frame /ar_marker_10
+ 1962  rosrun tf tf_echo /kinect2_rgb_optical_frame /ar_marker_11
+
