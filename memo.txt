@@ -1,0 +1,4 @@
+/2_calibrationdata$ roscore
+
+
+/2_calibrationdata$ roslaunch ar_track.launch

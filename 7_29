@@ -1,0 +1,21 @@
+起動＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+
+rosrun usb_cam usb_cam_node
+
+rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.0245 image:=/usb_cam/image_raw
+
+cd 2_calibu....
+
+
+
+
+_____________________________________________________
+
+rostopic list -v
+
+_____________________________________________________
+
+rosrun rqt_graph rqt_graph
+_____________________________________________________
+
+ roslaunch ar_track_2.launch

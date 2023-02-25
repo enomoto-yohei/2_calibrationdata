@@ -1,0 +1,2 @@
+pakege_mei:practice
+-DCATKIN_DEVEL_PREFIX=/home/enomoto/2_calibrationdata/devel -DCMAKE_INSTALL_PREFIX=/home/enomoto/2_calibrationdata/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/enomoto/2_calibrationdata/devel
+
+Name: pakege_mei
+Description: Description of pakege_mei
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/enomoto/2_calibrationdata/devel/lib 
+Requires: 
